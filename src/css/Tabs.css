@@ -1,0 +1,22 @@
+.tab_wrapper{
+    border: 2px solid #b1ada5;
+    height: 33px;
+    margin-top: 2px;
+}
+.tab_container{
+    border: 1px solid #b1ada5;
+    height: 33px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ padding-left: 30px;
+}
+
+.tab_button{
+    width: 70px;
+    height: 20px;
+    transform: skew(-20deg);
+    background-color: #ecc6a5;
+    border: none;
+}

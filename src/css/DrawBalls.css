@@ -1,14 +1,24 @@
-.draw_balls_wrapper{
-    border: 1px solid black;
-    height: 43px;
-    margin-top: 7px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 5px;
+.draw_balls_wrapper {
+  border: 2px solid #b1ada5;
+  height: 43px;
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 5px;
 }
 
-#image_ball{
-    height: 33px;
+#image_ball {
+  height: 33px;
+}
+.balls {
+  background-image: url("../images/reel.png");
+  width: 33px;
+  height: 33px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
