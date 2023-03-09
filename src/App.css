@@ -1,0 +1,24 @@
+:root {
+  --light-cream: #f3eadb;
+}
+.App {
+  display: flex;
+  align-self: center;
+  width: 350px;
+  margin: auto;
+  overflow: hidden;
+  background-color: var(--light-cream);
+  height: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+#game_title {
+  font-size: 15px;
+}
+
+.title_wrapper {
+  display: flex;
+  align-items: center;
+}
