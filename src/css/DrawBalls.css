@@ -1,5 +1,14 @@
 .draw_balls_wrapper{
     border: 1px solid black;
     height: 43px;
-    margin-top: 7px
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#image_ball{
+    height: 33px;
 }
