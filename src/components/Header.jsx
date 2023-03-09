@@ -11,7 +11,22 @@ function Header() {
       .toString()
       .padStart(2, "0");
     const seconds = (time % 60).toString().padStart(2, "0");
-    return `${hours}:${minutes}:${seconds}`;
+    return (
+      <div className="timer_wrapper">
+        <div className="timer_row">
+          <div className="timer_unit">HRS</div>
+          <span className="timer">{hours}:</span>
+        </div>
+        <div className="timer_row">
+          <div className="timer_unit">MIN</div>
+          <span className="timer">{minutes}:</span>
+        </div>
+        <div className="timer_row">
+          <div className="timer_unit">SEC</div>
+          <span className="timer">{seconds}</span>
+        </div>
+      </div>
+    );
   };
 
   return (
