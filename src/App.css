@@ -2,9 +2,13 @@
   --light-cream: #f3eadb;
 }
 .App {
-  display: flex;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  padding-top: 15px;
+  padding-inline: 5px;
   align-self: center;
-  width: 350px;
+  width: 450px;
   margin: auto;
   overflow: hidden;
   background-color: var(--light-cream);
@@ -13,6 +17,7 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 #game_title {
   font-size: 15px;
@@ -34,6 +39,7 @@
   width: 154px;
   align-items: center;
   justify-content: center;
+  margin-right: 7px;
 }
 
 .timer {
@@ -43,4 +49,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#ticker_id {
+  font-size: 13px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 7px;
 }

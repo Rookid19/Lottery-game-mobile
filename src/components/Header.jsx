@@ -35,11 +35,12 @@ function Header() {
         <span id="game_title">OB Royal 5</span>
         <MdArrowDropDown size={20} />
       </div>
+      <div>
+        <span id="ticker_id">NO:20221108-246</span> <br />
+        <span id="ticker_id">For sale</span>
+      </div>
       <div>{formatTime(400)}</div>
-      {/* <h6>
-        00:04:31HRSMINSECNO:20221108-246 <br /> For sale
-      </h6> */}
-      <FiMenu />
+      <FiMenu size={30} />
     </div>
   );
 }
