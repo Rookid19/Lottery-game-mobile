@@ -6,7 +6,7 @@ function DrawNumbers() {
     <div className="draw_number_wrapper">
       <div className="info">
         <div>
-          <span className="price">Price</span>
+          <span className="price">Price{" "}</span>
           <span className="price">195600</span>
         </div>
         <div>

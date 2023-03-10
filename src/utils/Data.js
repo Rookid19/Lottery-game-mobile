@@ -18,3 +18,25 @@ export const keyboardData = [
   { id: 15, label: "" },
   { id: 16, label: "" },
 ];
+
+export const numbers = [
+  { number: 0, label: "10/11" },
+  { number: 1, label: "10/3" },
+  { number: 2, label: "7/27" },
+  { number: 3, label: "10/11" },
+  { number: 4, label: "10/3" },
+  { number: 5, label: "7/27" },
+  { number: 6, label: "13/4" },
+  { number: 7, label: "10/11" },
+  { number: 8, label: "10/0" },
+  { number: 9, label: "7/27" },
+];
+
+export const compositeButtons = [
+  { id: 1, label: "big" },
+  { id: 2, label: "small" },
+  { id: 3, label: "odd" },
+  { id: 4, label: "even" },
+  { id: 5, label: "all" },
+  { id: 6, label: "clear" },
+];
