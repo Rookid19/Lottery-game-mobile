@@ -8,7 +8,7 @@ function DrawBalls() {
     <div className="draw_balls_wrapper">
       <span>001179</span>
       {balls.map((number) => (
-        <div className="balls">{number}</div>
+        <div className="balls" key={number}>{number}</div>
       ))}
       <MdArrowDropDown size={20} />
     </div>

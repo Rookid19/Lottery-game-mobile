@@ -14,15 +14,15 @@ function Tabs() {
     <div className="tab">
       <div className="tab_wrapper">
         <div className="tab_container">
-          {tabs_buttons.map((letter) => (
-            <button className="tab_button">{letter}</button>
+          {tabs_buttons.map((letter,i) => (
+            <button className="tab_button" key={i}>{letter}</button>
           ))}
           <MdArrowDropDown size={20} />
         </div>
       </div>
       <div className="tab2_container">
-        {rows.map((letter) => (
-          <button className="tab_button2">{letter}</button>
+        {rows.map((letter,i) => (
+          <button className="tab_button2" key={i}>{letter}</button>
         ))}
         <MdArrowDropDown size={20} />
       </div>

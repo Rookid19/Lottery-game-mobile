@@ -1,5 +1,6 @@
 import React from "react";
 import { MdArrowDropDown } from "react-icons/md";
+import { keyboardData } from "../utils/Data";
 import "../css/Bets.css";
 
 function Bets() {
@@ -10,7 +11,9 @@ function Bets() {
     <div className="bets_container">
       <div className="bets_wrapper">
         {numbers.map((num) => (
-          <button className="bets_button1">{num}</button>
+          <button className="bets_button1" key={num}>
+            {num}
+          </button>
         ))}
       </div>
       <div className="border"></div>
@@ -31,7 +34,32 @@ function Bets() {
       </div>
       <div className="options">
         {options.map((option) => (
-          <button className="options_button">{option}</button>
+          <button className="options_button" key={option}>
+            {option}
+          </button>
+        ))}
+      </div>
+      <div className="keyboard">
+        {keyboardData.map(({ id, label }) => (
+          <button
+            className="keyboard_buttons"
+            key={id}
+            style={{
+              color : id === 8 ? "#60a9c4": null,
+              fontSize : id === 8 ? 20: null,
+              backgroundColor:
+                id === 4 ||
+                id === 8 ||
+                id === 12 ||
+                id === 16 ||
+                id === 13 ||
+                id === 15
+                  ? "#eaebee"
+                  : "#fafafa",
+            }}
+          >
+            {label}
+          </button>
         ))}
       </div>
     </div>
