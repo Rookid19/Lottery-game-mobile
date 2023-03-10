@@ -2,9 +2,6 @@
   --light-cream: #f3eadb;
 }
 .App {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
   padding-top: 15px;
   padding-inline: 5px;
   align-self: center;

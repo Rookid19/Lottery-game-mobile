@@ -14,12 +14,12 @@
 }
 
 .tab2_container {
-    height: 33px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-  }
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+}
 
 .tab_button {
   width: 70px;
@@ -31,12 +31,12 @@
 }
 
 .tab_button2 {
-    /* width: 100px; */
-    margin-right: 10px;
-    height: 20px;
-    transform: skew(-20deg);
-    background-color: #ecc6a5;
-    border: none;
+  /* width: 100px; */
+  margin-right: 10px;
+  height: 20px;
+  transform: skew(-20deg);
+  background-color: #ecc6a5;
+  border: none;
   font-size: 11px;
-
-  }
+  height: 23px;
+}
