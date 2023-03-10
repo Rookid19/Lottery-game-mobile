@@ -87,19 +87,16 @@
   justify-content: center;
   align-items: center;
   padding-block: 15px;
-
-  /* padding-inline: 5px; */
 }
 
-.keyboard_buttons{
-    width: 90px;
-    height: 50px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    font-size: 30px;
-    border:none;
-    background-color: #fafafa;
-    border-radius: 5px;
-
-    /* margin-inline: 15px; */
+.keyboard_buttons {
+  width: 90px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  border: none;
+  background-color: #fafafa;
+  border-radius: 5px;
+  align-items: center;
 }
