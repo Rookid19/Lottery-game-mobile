@@ -1,9 +1,13 @@
 :root {
   --light-cream: #f3eadb;
 }
+body{
+  background-color: var(--light-cream);
+
+}
 .App {
   padding-top: 15px;
-  padding-inline: 5px;
+  padding-inline: 15px;
   align-self: center;
   width: 450px;
   margin: auto;

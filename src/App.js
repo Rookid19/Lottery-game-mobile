@@ -13,6 +13,7 @@ function App() {
       <Tabs />
       <DrawNumbers />
       <Bets />
+   
     </div>
   );
 }
